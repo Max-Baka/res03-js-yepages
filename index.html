@@ -4,32 +4,60 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Exo JSON</title>
-      <link rel="stylesheet" href="assets/style/css/style.css">
+      <link rel="stylesheet" href="styles/css/style.css">
     </head>
     <body>
+        <main>
         <section id="CO">
         <fieldset>
             <h1>Connexion</h1>
             <ul>
                 <li>
-                    <labeb for="password">PassWord</labeb>
+                    <labeb for="password">PassWord :</labeb>
                     <input type="text" id="pass" name="password" size="25"/>
                 </li>
                 <li>
-                    <label for="email">E-Mail:</label>
-                    <input type="text" id="email" name="email" size="25">
+                    <label for="email">E-Mail :</label>
+                    <input type="text" id="email" name="email" size="25"/>
                 </li>
             </ul>
         </fieldset>
         </section>
         <section id="info">
             <fieldset>
+                <h2>Formulaire d'inscription</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <labeb for="username">Username :</labeb>
+                        <input type="text" id="nameuser" name="username" size="25"/>
+                    </li>
+                    <li>
+                        <label for="email">E-Mail :</label>
+                        <input type="text" id="email" name="email" size="25">
+                    </li>
+                    <li>
+                        <labeb for="password">PassWord :</labeb>
+                        <input type="text" id="pass" name="password" size="25"/>
+                    </li>
+                    <li>
+                        <labeb for="confirmpass">Confirme PassWord :</labeb>
+                        <input type="text" id="pass" name="confirmpassword" size="25"/>
+                    </li>
+                    <li>
+                        <labeb for="firstName">First Name :</labeb>
+                        <input type="text" id="fname" name="firstName" size="25"/>
+                    </li>
+                    <li>
+                        <labeb for="latsname">Last Name :</labeb>
+                        <input type="text" id="lname" name="lastname" size="25"/>
+                    </li>
+                    <li>
+                        <label for="avatar">Choississez une image de profile :</label>
+                        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"/>
                 </ul>
             </fieldset>
         </section>
+        </main>
         <script type="module" src="./assets/js/index.js"></script>
     </body>
 </html>
