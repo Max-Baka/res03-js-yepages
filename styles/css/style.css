@@ -19,13 +19,25 @@ body main #CO fieldset {
 body main #CO fieldset h1 {
   font-size: 50px;
 }
+body main #CO fieldset ul {
+  list-style: none;
+}
+body main #CO fieldset ul li {
+  margin-bottom: 10px;
+}
 body main #info {
   display: grid;
   grid-column: 2/3;
 }
 body main #info fieldset {
   border-radius: 8px 8px 8px 8px;
-  column-width: 200px;
+}
+body main #info fieldset ul {
+  list-style: none;
+  display: flex;
+}
+body main #info fieldset ul li {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

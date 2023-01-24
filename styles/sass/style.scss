@@ -12,12 +12,15 @@ body{
             fieldset{
                 border-radius: 8px 8px 8px 8px;
                 box-shadow: 3px 3px red, -1em 0 .4em olive;
+                
                 h1{
                   font-size: 50px; 
                 }
             ul{
+                list-style: none;
+                 
                 li{
-                    
+                    margin-bottom: 10px;
                 }
             }
         }
@@ -27,11 +30,14 @@ body{
         grid-column: 2/3;
         fieldset{
             border-radius: 8px 8px 8px 8px;
-            column-width: 200px;
+            
             h2{
             }
-            ul{
+            ul{    
+                list-style: none;
+                display: flex;
                 li{
+                    margin-bottom: 10px;
                     
                     }
                 }
